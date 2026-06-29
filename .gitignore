@@ -1,0 +1,23 @@
+# Secrets — never commit your Groq key
+.env
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Fine-tuned model checkpoints (large; regenerate from the notebook)
+takemeter-model/
+*.safetensors
+*.bin
+
+# Raw scraped comment pools — intermediate; only the final labeled
+# dataset (data/takemeter_nba.csv) is committed, to minimize redistribution.
+data/_pool_*.csv
+data/_pool_compact.txt
+
+# Notebook / OS cruft
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

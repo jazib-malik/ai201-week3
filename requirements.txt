@@ -1,0 +1,13 @@
+# Colab already has transformers/datasets/torch/scikit-learn pre-installed.
+# These are pinned for (a) the Groq baseline and (b) running the optional
+# local interface in app/app.py.
+
+groq>=0.11.0
+python-dotenv>=1.0.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Only needed if you run the optional local demo interface (app/app.py):
+# transformers>=4.44.0
+# torch>=2.2.0
+# gradio>=4.0.0

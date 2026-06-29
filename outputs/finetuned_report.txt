@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+    analysis       0.78      0.88      0.82         8
+    hot_take       0.56      0.71      0.62         7
+    reaction       0.75      0.38      0.50         8
+      banter       0.75      0.86      0.80         7
+
+    accuracy                           0.70        30
+   macro avg       0.71      0.71      0.69        30
+weighted avg       0.71      0.70      0.69        30

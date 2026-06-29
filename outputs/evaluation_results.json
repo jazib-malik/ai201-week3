@@ -1,0 +1,49 @@
+{
+  "baseline_accuracy": 0.7333,
+  "baseline_macro_f1": 0.7216,
+  "finetuned_accuracy": 0.7,
+  "finetuned_macro_f1": 0.6871,
+  "improvement_accuracy": -0.0333,
+  "improvement_macro_f1": -0.0345,
+  "test_set_size": 30,
+  "baseline_unparseable": 0,
+  "label_map": {
+    "analysis": 0,
+    "hot_take": 1,
+    "reaction": 2,
+    "banter": 3
+  },
+  "model": "distilbert-base-uncased",
+  "confusion_matrix": [
+    [
+      7,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      1,
+      1
+    ],
+    [
+      2,
+      2,
+      3,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      6
+    ]
+  ],
+  "confusion_labels": [
+    "analysis",
+    "hot_take",
+    "reaction",
+    "banter"
+  ]
+}
