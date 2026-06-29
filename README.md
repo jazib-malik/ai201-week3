@@ -362,11 +362,11 @@ AI assistance (Claude / Claude Code) was used heavily on this project; the speci
 
 ## 11. Demo video
 
-🔧 **LINK GOES HERE** — your 3–5 minute demo. Easiest way to record the classification portion: run
-`python app/app.py` (the fine-tuned model is already saved in `takemeter-model/`) and paste comments live —
-it shows the predicted label, confidence, and the full distribution. Cover: 3–5 comments classified with
-label + confidence, one correct prediction narrated (e.g. a stat-laden `analysis` comment), one incorrect
-narrated (a `reaction` the model calls `hot_take` — see §6.4), and a walkthrough of this evaluation report.
+https://github.com/user-attachments/assets/7d8966de-69f3-4b4f-b485-ac85ccf21624
+
+
+
+
 
 ---
 
